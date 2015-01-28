@@ -33,6 +33,7 @@ Your program will keep running until there are 30 random numbers generated. Save
 */
 import java.util.Random;
 import java.util.PriorityQueue;
+import java.util.Iterator;
 
 public class assign1_zucker
 {
@@ -56,12 +57,9 @@ public class assign1_zucker
 		//inserts 10 random numbers into the priority queue
 		while(numbersGenerated < 10)
 		{
-			//Generates a random number from 0 to 100; including 0, excluding 100. Then adds 1 
-			rand_num = rand.nextInt(100)+1;
-			
+			//adds a random generated number from 0 to 100; including 0, excluding 100. Then adds 1 to the priority queue
+			pq.add(rand.nextInt(100)+1);
 			numbersGenerated++;
-
-			pq.add(rand_num);
 		}
 
 		while(numbersGenerated < 30)
@@ -84,16 +82,14 @@ public class assign1_zucker
 
 	public static String priorityQueueToString(PriorityQueue<Integer> pq)
 	{
-		//queue to array, loop through array printing each element
-		Integer[] elements = new Integer[pq.size()];
-		pq.toArray(elements);
+		//Iterate through priority queue
+		Iterator it = pq.iterator();
 
 		String str = "";
-		for(int i=0; i<elements.length; i++)
-		{
-			str += elements[i] + " ";
-		}
-		
+
+		while(it.hasNext())
+			str += it.next() + " ";
+
 		return str.trim();
 	}
 }

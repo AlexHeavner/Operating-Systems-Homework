@@ -25,13 +25,13 @@ public class JobQueue
 	}
 	
 	public static String getContents(PriorityQueue<Integer> queue)
-	{
-		Object[] queue_array =  queue.toArray();
-		
+	{	
 		String return_string = "The numbers in the queue are ";
 		
-		for(int i = 0; i < queue_array.length; i++)
-			return_string = return_string + queue_array[i] + " ";
+		for(int element: queue)
+		{
+			return_string = return_string + element + " ";
+		}
 		
 		return return_string;
 	}

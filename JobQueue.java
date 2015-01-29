@@ -20,19 +20,11 @@ public class JobQueue
 			System.out.println("The new coming number is " + temp);
 			queue.add(temp);
 			
-			System.out.println(getContents(queue) + "\n");
+			System.out.print("The numbers in the queue are ");
+			for(int element: queue)
+				System.out.print(element + " ");
+			
+			System.out.println();
 		}
-	}
-	
-	public static String getContents(PriorityQueue<Integer> queue)
-	{	
-		String return_string = "The numbers in the queue are ";
-		
-		for(int element: queue)
-		{
-			return_string = return_string + element + " ";
-		}
-		
-		return return_string;
 	}
 }

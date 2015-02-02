@@ -1,0 +1,21 @@
+import java.util.*;
+public class GroupProject1 {
+	public static void main(String[] args) {	
+	Random randomGenerator = new Random();
+	PriorityQueue<Integer> queue = new PriorityQueue<Integer>(10);
+		for(int i = 0; i<=10; i++){
+			queue.add(randomGenerator.nextInt(100)+1);
+		}
+		for(int i = 0; i<=30; i++){
+			System.out.println("The Current Dispatched Number is: "+queue.remove());
+			Integer iInt = randomGenerator.nextInt(100);
+			queue.add(iInt);
+			System.out.println("The Incoming Number is: "+iInt);
+			System.out.println("The Contents of the Queue Are: ");
+			for(int s: queue){
+				System.out.print(s + " ");
+			}
+			System.out.println("");
+		}
+	}
+}

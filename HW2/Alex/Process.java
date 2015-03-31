@@ -15,13 +15,14 @@ public class Process {
 		this.time_to_run = time_to_run;
 	}
 	
+	//used to decrement process while in processor
 	public void timeToRunDec()
 	{
 		this.time_to_run -- ;
 	}
 	
+	//Getters
 	public int getID(){return this.ID;}
-	
 	public int getTimeToRun(){return this.time_to_run;}
 
 }

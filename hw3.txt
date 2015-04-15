@@ -1,0 +1,2221 @@
+Step 0:
+The new generated process is:    with priority 
+The processes in the priority queue are: P3:16 P5:19 P2:24 P9:31 P10:41 P6:28 P7:26 P8:42 P1:36
+The processes in the waiting queue are: P4:12
+The processes in the ready queue are: 
+Step 1:
+The new generated process is: P11 with priority 18
+The processes in the priority queue are: P3:16 P11:18 P2:24 P9:31 P5:19 P6:28 P7:26 P8:42 P1:36 P10:41
+The processes in the waiting queue are: P4:12
+The processes in the ready queue are: 
+Step 2:
+The new generated process is:    with priority 
+The processes in the priority queue are: P11:18 P5:19 P2:24 P9:31 P10:41 P6:28 P7:26 P8:42 P1:36
+The processes in the waiting queue are: P4:12 P3:16
+The processes in the ready queue are: 
+Step 3:
+The new generated process is: P12 with priority 34
+The processes in the priority queue are: P11:18 P5:19 P2:24 P9:31 P12:34 P6:28 P7:26 P8:42 P1:36 P10:41
+The processes in the waiting queue are: P4:12 P3:16
+The processes in the ready queue are: 
+Step 4:
+The new generated process is:    with priority 
+The processes in the priority queue are: P5:19 P9:31 P2:24 P1:36 P12:34 P6:28 P7:26 P8:42 P10:41
+The processes in the waiting queue are: P4:12 P3:16 P11:18
+The processes in the ready queue are: 
+Step 5:
+The new generated process is: P13 with priority 26
+The processes in the priority queue are: P5:19 P13:26 P2:24 P1:36 P9:31 P6:28 P7:26 P8:42 P10:41 P12:34
+The processes in the waiting queue are: P4:12 P3:16 P11:18
+The processes in the ready queue are: 
+Step 6:
+The new generated process is:    with priority 
+The processes in the priority queue are: P2:24 P13:26 P7:26 P1:36 P9:31 P6:28 P12:34 P8:42 P10:41
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19
+The processes in the ready queue are: 
+Step 7:
+The new generated process is: P14 with priority 18
+The processes in the priority queue are: P14:18 P2:24 P7:26 P1:36 P13:26 P6:28 P12:34 P8:42 P10:41 P9:31
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19
+The processes in the ready queue are: 
+Step 8:
+The new generated process is:    with priority 
+The processes in the priority queue are: P2:24 P13:26 P7:26 P1:36 P9:31 P6:28 P12:34 P8:42 P10:41
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19 P14:18
+The processes in the ready queue are: 
+Step 9:
+The new generated process is: P15 with priority 1
+The processes in the priority queue are: P15:1 P2:24 P7:26 P1:36 P13:26 P6:28 P12:34 P8:42 P10:41 P9:31
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19 P14:18
+The processes in the ready queue are: 
+Step 10:
+The new generated process is:    with priority 
+The processes in the priority queue are: P2:24 P13:26 P7:26 P1:36 P9:31 P6:28 P12:34 P8:42 P10:41
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19 P14:18 P15:1
+The processes in the ready queue are: 
+Step 11:
+The new generated process is: P16 with priority 43
+The processes in the priority queue are: P2:24 P13:26 P7:26 P1:36 P9:31 P6:28 P12:34 P8:42 P10:41 P16:43
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19 P14:18 P15:1
+The processes in the ready queue are: 
+Step 12:
+The new generated process is:    with priority 
+The processes in the priority queue are: P13:26 P9:31 P7:26 P1:36 P16:43 P6:28 P12:34 P8:42 P10:41
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19 P14:18 P15:1 P2:24
+The processes in the ready queue are: 
+Step 13:
+The new generated process is: P17 with priority 23
+The processes in the priority queue are: P17:23 P13:26 P7:26 P1:36 P9:31 P6:28 P12:34 P8:42 P10:41 P16:43
+The processes in the waiting queue are: P4:12 P3:16 P11:18 P5:19 P14:18 P15:1 P2:24
+The processes in the ready queue are: 
+Step 14:
+The new generated process is:    with priority 
+The processes in the priority queue are: P17:23 P13:26 P7:26 P1:36 P9:31 P6:28 P12:34 P8:42 P10:41 P16:43
+The processes in the waiting queue are: P3:16 P11:18 P5:19 P14:18 P15:1 P2:24
+The processes in the ready queue are: P4:12
+Step 15:
+The new generated process is:    with priority 
+The processes in the priority queue are: P13:26 P9:31 P7:26 P1:36 P16:43 P6:28 P12:34 P8:42 P10:41
+The processes in the waiting queue are: P3:16 P11:18 P5:19 P14:18 P15:1 P2:24 P17:23
+The processes in the ready queue are: P4:12
+Step 16:
+The new generated process is: P18 with priority 48
+The processes in the priority queue are: P13:26 P9:31 P7:26 P1:36 P16:43 P6:28 P12:34 P8:42 P10:41 P18:48
+The processes in the waiting queue are: P3:16 P11:18 P5:19 P14:18 P15:1 P2:24 P17:23
+The processes in the ready queue are: P4:12
+Step 17:
+The new generated process is:    with priority 
+The processes in the priority queue are: P13:26 P9:31 P7:26 P1:36 P16:43 P6:28 P12:34 P8:42 P10:41 P18:48
+The processes in the waiting queue are: P11:18 P5:19 P14:18 P15:1 P2:24 P17:23
+The processes in the ready queue are: P4:12 P3:16
+Step 18:
+The new generated process is:    with priority 
+The processes in the priority queue are: P7:26 P9:31 P6:28 P1:36 P16:43 P18:48 P12:34 P8:42 P10:41
+The processes in the waiting queue are: P11:18 P5:19 P14:18 P15:1 P2:24 P17:23 P13:26
+The processes in the ready queue are: P4:12 P3:16
+Step 19:
+The new generated process is: P19 with priority 37
+The processes in the priority queue are: P7:26 P9:31 P6:28 P1:36 P19:37 P18:48 P12:34 P8:42 P10:41 P16:43
+The processes in the waiting queue are: P11:18 P5:19 P14:18 P15:1 P2:24 P17:23 P13:26
+The processes in the ready queue are: P4:12 P3:16
+Step 20:
+The new generated process is:    with priority 
+The processes in the priority queue are: P7:26 P9:31 P6:28 P1:36 P19:37 P18:48 P12:34 P8:42 P10:41 P16:43
+The processes in the waiting queue are: P5:19 P14:18 P15:1 P2:24 P17:23 P13:26
+The processes in the ready queue are: P4:12 P3:16 P11:18
+Step 21:
+The new generated process is:    with priority 
+The processes in the priority queue are: P6:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P5:19 P14:18 P15:1 P2:24 P17:23 P13:26 P7:26
+The processes in the ready queue are: P4:12 P3:16 P11:18
+Step 22:
+The new generated process is: P20 with priority 21
+The processes in the priority queue are: P20:21 P6:28 P12:34 P1:36 P9:31 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P5:19 P14:18 P15:1 P2:24 P17:23 P13:26 P7:26
+The processes in the ready queue are: P4:12 P3:16 P11:18
+Step 23:
+The new generated process is:    with priority 
+The processes in the priority queue are: P20:21 P6:28 P12:34 P1:36 P9:31 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P14:18 P15:1 P2:24 P17:23 P13:26 P7:26
+The processes in the ready queue are: P4:12 P3:16 P11:18 P5:19
+Step 24:
+The new generated process is:    with priority 
+The processes in the priority queue are: P6:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P14:18 P15:1 P2:24 P17:23 P13:26 P7:26 P20:21
+The processes in the ready queue are: P4:12 P3:16 P11:18 P5:19
+Step 25:
+The new generated process is: P21 with priority 28
+The processes in the priority queue are: P6:28 P21:28 P12:34 P1:36 P9:31 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P14:18 P15:1 P2:24 P17:23 P13:26 P7:26 P20:21
+The processes in the ready queue are: P4:12 P3:16 P11:18 P5:19
+Step 26:
+The new generated process is:    with priority 
+The processes in the priority queue are: P6:28 P21:28 P12:34 P1:36 P9:31 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P15:1 P2:24 P17:23 P13:26 P7:26 P20:21
+The processes in the ready queue are: P4:12 P3:16 P11:18 P5:19 P14:18
+Step 27:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P15:1 P2:24 P17:23 P13:26 P7:26 P20:21 P6:28
+The processes in the ready queue are: P4:12 P3:16 P11:18 P5:19 P14:18
+Step 28:
+The new generated process is: P22 with priority 17
+The processes in the priority queue are: P22:17 P21:28 P12:34 P1:36 P9:31 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P15:1 P2:24 P17:23 P13:26 P7:26 P20:21 P6:28
+The processes in the ready queue are: P4:12 P3:16 P11:18 P5:19 P14:18
+Step 29:
+The new generated process is:    with priority 
+The processes in the priority queue are: P22:17 P21:28 P12:34 P1:36 P9:31 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P15:1 P2:24 P17:23 P13:26 P7:26 P20:21 P6:28
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18
+The Processor is running process: P4:12
+Step 30:
+The new generated process is:    with priority 
+The processes in the priority queue are: P22:17 P21:28 P12:34 P1:36 P9:31 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 31:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 32:
+The new generated process is: P23 with priority 38
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 33:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 34:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 35:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 36:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 37:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P3:16 P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P4:12
+Step 38:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P2:24 P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1
+The Processor is running process: P3:16
+Step 39:
+The new generated process is:    with priority 
+The processes in the priority queue are: P21:28 P9:31 P12:34 P1:36 P19:37 P18:48 P16:43 P8:42 P10:41 P23:38
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 40:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 41:
+The new generated process is: P24 with priority 21
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 42:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 43:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 44:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 45:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 46:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 47:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 48:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P11:18 P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P3:16
+Step 49:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P17:23 P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24
+The Processor is running process: P11:18
+Step 50:
+The new generated process is:    with priority 
+The processes in the priority queue are: P24:21 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 51:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 52:
+The new generated process is: P25 with priority 8
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 53:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 54:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 55:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 56:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 57:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 58:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 59:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 60:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P5:19 P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P11:18
+Step 61:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P13:26 P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23
+The Processor is running process: P5:19
+Step 62:
+The new generated process is:    with priority 
+The processes in the priority queue are: P25:8 P9:31 P12:34 P23:38 P1:36 P18:48 P16:43 P8:42 P10:41 P19:37
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 63:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 64:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 65:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 66:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 67:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 68:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 69:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 70:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 71:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 72:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P14:18 P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P5:19
+Step 73:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P7:26 P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26
+The Processor is running process: P14:18
+Step 74:
+The new generated process is:    with priority 
+The processes in the priority queue are: P9:31 P1:36 P12:34 P23:38 P19:37 P18:48 P16:43 P8:42 P10:41
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 75:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 76:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 77:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 78:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 79:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 80:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 81:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 82:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 83:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P15:1 P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P14:18
+Step 84:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P20:21 P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P2:24 P17:23 P13:26 P7:26
+The Processor is running process: P15:1
+Step 85:
+The new generated process is:    with priority 
+The processes in the priority queue are: P12:34 P1:36 P10:41 P23:38 P19:37 P18:48 P16:43 P8:42
+The processes in the waiting queue are: P6:28 P22:17 P21:28 P24:21 P25:8 P9:31
+The processes in the ready queue are: P2:24 P17:23 P13:26 P7:26 P20:21
+The Processor is running process: P15:1
+Step 86:
+The new generated process is:    with priority 
+The processes in the priority queue are: P1:36 P19:37 P10:41 P23:38 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P6:28 P22:17 P21:28 P24:21 P25:8 P9:31 P12:34
+The processes in the ready queue are: P2:24 P17:23 P13:26 P7:26 P20:21
+The Processor is running process: P15:1
+Step 87:
+The new generated process is:    with priority 
+The processes in the priority queue are: P1:36 P19:37 P10:41 P23:38 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P6:28 P22:17 P21:28 P24:21 P25:8 P9:31 P12:34
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21
+The Processor is running process: P2:24
+Step 88:
+The new generated process is:    with priority 
+The processes in the priority queue are: P1:36 P19:37 P10:41 P23:38 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 89:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 90:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 91:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 92:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 93:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 94:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 95:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 96:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 97:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 98:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 99:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 100:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P17:23 P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P2:24
+Step 101:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P22:17 P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28
+The Processor is running process: P17:23
+Step 102:
+The new generated process is:    with priority 
+The processes in the priority queue are: P19:37 P23:38 P10:41 P16:43 P8:42 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 103:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 104:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 105:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 106:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 107:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 108:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 109:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 110:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 111:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 112:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 113:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 114:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P13:26 P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P17:23
+Step 115:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P21:28 P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17
+The Processor is running process: P13:26
+Step 116:
+The new generated process is:    with priority 
+The processes in the priority queue are: P23:38 P8:42 P10:41 P16:43 P18:48
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 117:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 118:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 119:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 120:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 121:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 122:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 123:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 124:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 125:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 126:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 127:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 128:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 129:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P7:26 P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P13:26
+Step 130:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P24:21 P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28
+The Processor is running process: P7:26
+Step 131:
+The new generated process is:    with priority 
+The processes in the priority queue are: P10:41 P8:42 P18:48 P16:43
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 132:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 133:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 134:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 135:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 136:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 137:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 138:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 139:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 140:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 141:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 142:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 143:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 144:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P20:21 P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P7:26
+Step 145:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P25:8 P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21
+The Processor is running process: P20:21
+Step 146:
+The new generated process is:    with priority 
+The processes in the priority queue are: P8:42 P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 147:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 148:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 149:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 150:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 151:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 152:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 153:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 154:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 155:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 156:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 157:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P6:28 P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P20:21
+Step 158:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P9:31 P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8
+The Processor is running process: P6:28
+Step 159:
+The new generated process is:    with priority 
+The processes in the priority queue are: P16:43 P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 160:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 161:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 162:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 163:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 164:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 165:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 166:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 167:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 168:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 169:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 170:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 171:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 172:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 173:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P22:17 P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P6:28
+Step 174:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P12:34 P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31
+The Processor is running process: P22:17
+Step 175:
+The new generated process is:    with priority 
+The processes in the priority queue are: P18:48
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 176:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 177:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 178:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 179:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 180:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 181:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 182:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 183:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 184:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P21:28 P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P22:17
+Step 185:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P1:36 P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34
+The Processor is running process: P21:28
+Step 186:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 187:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 188:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 189:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 190:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 191:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 192:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 193:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 194:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 195:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 196:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 197:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 198:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 199:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P24:21 P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P21:28
+Step 200:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P19:37 P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36
+The Processor is running process: P24:21
+Step 201:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 202:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 203:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 204:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 205:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 206:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 207:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 208:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 209:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 210:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 211:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P25:8 P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P24:21
+Step 212:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P9:31 P12:34 P1:36 P19:37
+The Processor is running process: P25:8
+Step 213:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P9:31 P12:34 P1:36 P19:37 P23:38
+The Processor is running process: P25:8
+Step 214:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P9:31 P12:34 P1:36 P19:37 P23:38
+The Processor is running process: P25:8
+Step 215:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P9:31 P12:34 P1:36 P19:37 P23:38
+The Processor is running process: P25:8
+Step 216:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P9:31 P12:34 P1:36 P19:37 P23:38
+The Processor is running process: P25:8
+Step 217:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P10:41 P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38
+The Processor is running process: P9:31
+Step 218:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 219:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 220:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 221:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 222:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 223:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 224:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 225:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 226:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 227:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 228:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 229:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 230:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 231:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 232:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 233:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P12:34 P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P9:31
+Step 234:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P8:42 P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41
+The Processor is running process: P12:34
+Step 235:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 236:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 237:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 238:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 239:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 240:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 241:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 242:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 243:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 244:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 245:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 246:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 247:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 248:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 249:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 250:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 251:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P1:36 P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P12:34
+Step 252:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P16:43 P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42
+The Processor is running process: P1:36
+Step 253:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 254:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 255:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 256:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 257:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 258:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 259:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 260:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 261:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 262:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 263:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 264:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 265:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 266:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 267:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 268:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 269:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 270:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P19:37 P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P1:36
+Step 271:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: P18:48
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43
+The Processor is running process: P19:37
+Step 272:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 273:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 274:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 275:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 276:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 277:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 278:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 279:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 280:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 281:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 282:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 283:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 284:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 285:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 286:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 287:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 288:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 289:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 290:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P23:38 P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P19:37
+Step 291:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 292:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 293:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 294:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 295:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 296:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 297:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 298:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 299:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 300:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 301:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 302:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 303:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 304:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 305:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 306:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 307:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 308:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 309:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P10:41 P8:42 P16:43 P18:48
+The Processor is running process: P23:38
+Step 310:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 311:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 312:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 313:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 314:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 315:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 316:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 317:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 318:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 319:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 320:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 321:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 322:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 323:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 324:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 325:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 326:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 327:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 328:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 329:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 330:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P8:42 P16:43 P18:48
+The Processor is running process: P10:41
+Step 331:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 332:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 333:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 334:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 335:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 336:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 337:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 338:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 339:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 340:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 341:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 342:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 343:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 344:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 345:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 346:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 347:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 348:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 349:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 350:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 351:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P16:43 P18:48
+The Processor is running process: P8:42
+Step 352:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 353:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 354:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 355:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 356:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 357:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 358:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 359:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 360:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 361:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 362:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 363:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 364:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 365:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 366:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 367:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 368:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 369:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 370:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 371:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 372:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 373:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: P18:48
+The Processor is running process: P16:43
+Step 374:
+The new generated process is:    with priority 
+The processes in the priority queue are: 
+The processes in the waiting queue are: 
+The processes in the ready queue are: 
+The Processor is running process: P18:48

@@ -1,0 +1,160 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class HW4_Demo {
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		int memorySize=3;  //enter memory size here, does't work for less than 4 for some reason
+		String fileLocation = "MRU.txt";
+		int fileLength = 0; //length of file needed for correct array size
+		Scanner fReader = new Scanner(new File(fileLocation));
+		
+		//Determines amount of integers in the file.
+		while(fReader.hasNext()){
+			fReader.next();
+			fileLength++;
+		}
+		
+		//Print out file length for testing purposes.  Final code will need to remove this.
+		System.out.println("File Length: "+fileLength);
+		fReader.close();
+		//fReader.reset() doesn't work for some reason, so I'm having to close the file and open using a new name to reset the pointer??
+		Scanner Reader = new Scanner(new File(fileLocation));
+		int[] fileArray = new int[fileLength]; //creates array with the fileLength size.
+		int arrayLocation = 0;  //for adding elements to array location i
+		
+		//add all integers in the file to the fileArray
+		while(Reader.hasNextInt()){
+				fileArray[arrayLocation]=Reader.nextInt();
+				arrayLocation++;
+		}
+		
+		int arrayLength = fileArray.length;
+		System.out.print("File Array Test: ");
+		for(int i = 0; i<arrayLength;i++){
+			System.out.print(fileArray[i]+" ");
+		}
+		Reader.close();
+		System.out.print("\n\n");
+		
+		//Now that I have the array, we can do the LFU memory algorithm. fileArray contains the integers from the file--
+		
+		//Creating the FrameObject Array
+		FrameObject[] frame = new FrameObject[memorySize];
+		
+		//--MEMORY NOT FULL LOOP--
+		
+		/* Memory not full loop is needed as a separate loop from the memory full loop.  
+		 * The loop does not need to exchange an unused number in memory if memory is not full
+		 * So I created a separate loop to do this.  I tried to just create a boolean memoryFull
+		 * to control this inside one single loop, but I couldn't get it to work correctly.
+		 */
+		int i = 0; //needed to control fileArray loop (max fileArray.length)
+		int k = 0; //needed to control memory size loop (max memorySize)
+		//Loop to control size of memory.
+		while(k!=memorySize){
+			System.out.print("Loop #"+(i+1)+" ");
+			int newNumber = fileArray[i];
+			
+			//beginning of memory loop to add the item to the memory.
+			for(int j = 0; j<frame.length;j++){
+				
+				//--EQUAL CHECK--
+				//check to see if memory location is not null. 
+				if(frame[j]!=null){
+					//check to see if the new number is equal to the number in the frame object
+					if(frame[j].getNumber()==newNumber){
+						System.out.print("New number "+newNumber+" already in memory location "+j+"\n");
+						//reset used to 1 for number in memory location
+						frame[j].resetUsed();
+						j = frame.length; //break memory loop
+						i++; //increment fileArray loop control
+					}
+				}
+				//--EMPTY CHECK-- If memory location is empty (null) then store the new number here.
+				else if (frame[j]==null){
+					frame[j] = new FrameObject(newNumber);
+					System.out.print("New number "+newNumber+" added to location "+j+"\n");
+					j = frame.length;  //break memory loop
+					i++; //increment fileArray loop control
+					k++;  //increment memory full control
+				}
+			}
+			
+			//Print contents of memory after each call to memory
+			System.out.print("Memory: ");
+			for(FrameObject f: frame){
+				if(f!=null){
+					System.out.print(f.getNumber()+" ");
+				}
+			}
+			System.out.print("\n");
+		} //end of memory full loop
+		boolean isAdded;  //needed in memory full loop for checking to see if something was equal and was added, we don't want it checking used as well.
+		
+		
+		//--MEMORY FULL LOOP--
+		/*
+		 * Now that memory is full, you can test to see if a memory location number has been used recently.  If it
+		 * has not been, you can replace it.  This still first checks to see if the new number is equal.  If it is
+		 * equal, then it leaves the number there, and then resets the used variable to 1.
+		 */
+		
+		//loop for controlling the fileArray. Start at the location in the fileArray that was leftoff
+		for(; i<fileArray.length;i++){
+			System.out.print("Loop #"+(i+1)+" ");
+			int newNumber = fileArray[i];
+			isAdded=false;
+			//Step through memory for equals
+			for(int j = 0; j<frame.length; j++){
+				if(frame[j]!=null){
+					//equal check
+					if(frame[j].getNumber()==newNumber){
+						System.out.print("New number "+newNumber+" already in memory location "+j+"\n");
+						frame[j].resetUsed();
+						j = frame.length;
+						isAdded=true;
+						//set all other items in memory to least used
+						for(int l=0;l<memorySize;l++){
+							if(l!=j){
+								frame[l].setUsed();
+							}
+						}
+					}
+				}
+			}
+			//If item not equal, check used
+			if(!isAdded){
+				//step through memory
+				for(int j = 0; j< frame.length; j++){
+					//used check
+					if(frame[j].getUsed()==0){
+						System.out.print("PAGE FAULT " +newNumber+" replaces "+frame[j].getNumber()+" at memory location "+j+"\n");
+						frame[j].setNumber(newNumber);
+						j = frame.length;
+						isAdded=true;  //not really needed
+						//set all other items in memory to least used
+						for(int l=0;l<memorySize;l++){
+							if(l!=j){
+								frame[l].setUsed();
+							}
+						}
+					}
+				}	
+			}
+			//Print contents of memory
+			System.out.print("Memory: ");
+			for(FrameObject f: frame){
+				if(f!=null){
+					System.out.print(f.getNumber()+" ");
+				}
+			}
+			System.out.print("\n");
+		}
+	} //end of main
+	//zero's used state on all items in memory except for most recently added/used
+	public static void resetUsed(int num){
+		
+	}
+} //end of class

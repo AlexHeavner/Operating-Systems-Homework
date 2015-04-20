@@ -1,0 +1,36 @@
+public class FrameObject {
+	public int number;
+	public int used;
+	
+	//Constructor when object is created
+	public FrameObject(){
+		
+	}
+	//Constructor when object is created, accepts integer to set number.  Used is automatically set to 1.
+	//It is understood that every time you create a FrameObject you are also using it at that time
+	public FrameObject(int num){
+		number = num;
+		used = 1;
+	}
+	//accessor for used
+	public int getUsed(){
+		return used;
+	}
+	//accessor for number
+	public int getNumber(){
+		return number;
+	}
+	//method to set used to 0, needed when a frame object in memory has not been used recently.
+	public void setUsed(){
+		used=0;
+	}
+	//method to reset used to 1.  needed whenever a frame object located in memory is used recently.
+	public void resetUsed(){
+		used=1;
+	}
+	//method to set number to a new number.  needed when replaceing a frame object located in memory with a new number from file.
+	public void setNumber(int num){
+		number = num;
+		used = 1;
+	}
+}
